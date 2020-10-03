@@ -17,4 +17,5 @@ if (true) {
     console.log(nombre, valorDado);
 };
 
-console.log(valorDado);
+console.log(valorDado); 
+//
