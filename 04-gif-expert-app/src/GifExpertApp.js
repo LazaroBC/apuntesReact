@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import { GifGrid } from './components/GifGrid'
 const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['Samurai combat']);
+    const [categories, setCategories] = useState(['Samurai']);
 
     // const handleAdd = () => {
     //     setCategories(['1ºHunterXHunter', ...categories, '2ºHunterXHunter']);
