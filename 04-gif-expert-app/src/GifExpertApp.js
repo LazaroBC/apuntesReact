@@ -3,9 +3,11 @@ import { AddCategory } from './components/AddCategory';
 // Para obligar a poner los componentes en <AddCategory />
 import PropTypes from 'prop-types'
 import { GifGrid } from './components/GifGrid'
-const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['Samurai']);
+export const GifExpertApp = ({ defaultCategories = [] }) => {
+
+    // const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(defaultCategories );
 
     // const handleAdd = () => {
     //     setCategories(['1ºHunterXHunter', ...categories, '2ºHunterXHunter']);
